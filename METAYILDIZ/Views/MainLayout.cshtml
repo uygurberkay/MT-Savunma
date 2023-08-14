@@ -1,0 +1,118 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Tripzia - Immigration and Visa Consulting HTML Template" />
+    <meta name="author" content="https://www.cymolthemes.com/" />
+    <meta name="viewport" content=" width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Metayıldız</title>
+
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="/temps/images/favicon.png" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/temps/css/bootstrap.min.css" />
+
+    <!-- animate -->
+    <link rel="stylesheet" type="text/css" href="/temps/css/animate.css" />
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="/temps/css/font-awesome.css" />
+
+    <!-- themify -->
+    <link rel="stylesheet" type="text/css" href="/temps/css/themify-icons.css" />
+
+    <!-- flaticon -->
+    <link rel="stylesheet" type="text/css" href="/temps/css/flaticon.css" />
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="/temps/css/slick.css">
+
+    <!-- REVOLUTION LAYERS STYLES -->
+
+    <link rel='stylesheet' id='rs-plugin-settings-css' href="/temps/revolution/css/rs6.css">
+
+    <!-- prettyphoto -->
+    <link rel="stylesheet" type="text/css" href="/temps/css/prettyPhoto.css">
+
+    <!-- shortcodes -->
+    <link rel="stylesheet" type="text/css" href="/temps/css/shortcodes.css" />
+
+    <!-- main -->
+    <link rel="stylesheet" type="text/css" href="/temps/css/main.css" />
+
+    <!-- main -->
+    <link rel="stylesheet" type="text/css" href="/temps/css/megamenu.css" />
+
+    <!-- responsive -->
+    <link rel="stylesheet" type="text/css" href="/temps/css/responsive.css" />
+
+
+</head>
+
+
+<body>
+
+    <!--page start-->
+    <div class="page">
+
+        @await Html.PartialAsync("Header")
+    
+      
+
+      @RenderBody()
+
+        @await Html.PartialAsync("Footer")
+  
+        <a id="totop" href="#top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+      
+
+    </div>
+
+    <script src="/temps/js/jquery.min.js"></script>
+    <script src="/temps/js/tether.min.js"></script>
+    <script src="/temps/js/bootstrap.min.js"></script>
+    <script src="/temps/js/jquery.easing.js"></script>
+    <script src="/temps/js/jquery-waypoints.js"></script>
+    <script src="/temps/js/jquery-validate.js"></script>
+    <script src="/temps/js/jquery.prettyPhoto.js"></script>
+    <script src="/temps/js/slick.min.js"></script>   
+    <script src="/temps/js/numinate.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+    <script src="/temps/js/imagesloaded.min.js"></script>
+    <script src="/temps/js/jquery-isotope.js"></script>
+    <script src="/temps/js/main.js"></script>
+
+    <!-- Revolution Slider -->
+
+    <script src="/temps/revolution/js/slider.js"></script>
+
+    <!-- SLIDER REVOLUTION 6.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+
+    <script src='/temps/revolution/js/revolution.tools.min.js'></script>
+    <script src='/temps/revolution/js/rs6.min.js'></script>
+    <script src="/temps/js/map.js"></script>
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <!-- Javascript end-->
+
+</body>
+</html>
