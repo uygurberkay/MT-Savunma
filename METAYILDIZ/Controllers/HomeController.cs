@@ -28,26 +28,21 @@ namespace METAYILDIZ.Controllers
             return View();
         }
 
-		public IActionResult YapayZeka()
+		public IActionResult MYYapayZeka()
 		{
 			return View();
 		}
 
-        public IActionResult VirtualReality()
+        public IActionResult MYArttırılmışGerçeklik()
         {
             return View();
         }
-        public IActionResult EducationSimu()
-        {
-            return View();
-        }
-
-        public IActionResult WebDevelopment()
+        public IActionResult MYEgitimSimulasyonu()
         {
             return View();
         }
 
-        public IActionResult GameDevelopment()
+        public IActionResult MYOyunGeliştirme()
         {
             return View();
         }
