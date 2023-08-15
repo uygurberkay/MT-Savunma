@@ -88,10 +88,7 @@ namespace METAYILDIZ.Controllers
         {
             return View();
         }
-        public IActionResult MSGökcil()
-        {
-            return View();
-        }
+
         public IActionResult MSVTOL()
         {
             return View();
