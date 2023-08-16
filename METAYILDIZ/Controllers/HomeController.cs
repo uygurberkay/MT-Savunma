@@ -65,7 +65,7 @@ namespace METAYILDIZ.Controllers
             return View();
         }
 
-        public IActionResult MSSihiDrone()
+        public IActionResult MSSiriDrone()
         {
             return View();
         }
