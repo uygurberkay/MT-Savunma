@@ -74,11 +74,6 @@ namespace METAYILDIZ.Controllers
             return View();
         }
 
-        public IActionResult MSGözetleme()
-        {
-            return View();
-        }
-
         public IActionResult MSPuhu()
         {
             return View();
