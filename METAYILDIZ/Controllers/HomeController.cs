@@ -32,7 +32,10 @@ namespace METAYILDIZ.Controllers
 		{
 			return View();
 		}
-
+        public IActionResult MYGamingo()
+        {
+            return View();
+        }
         public IActionResult MYArttırılmışGerçeklik()
         {
             return View();
